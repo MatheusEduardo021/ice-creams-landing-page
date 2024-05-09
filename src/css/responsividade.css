@@ -13,7 +13,7 @@
         display: none;
     }
 
-    #mobile_btn {
+    #mobile-btn {
         display: block;
         border: none;
         background-color: transparent;
@@ -21,24 +21,41 @@
         cursor: pointer;
     }
 
-    #mobile_menu.active {
+    .open {
+        display: block;
+    }
+
+    .menu-mobile {
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+ 
+
+    #mobile-nav-list {
+        background-color: #FFF9E9;
+        height: calc(100vh - 90px);
+        margin-top: 90px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-    }
-
-    #mobile_nav_list {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin: 12px 0px;
-    }
-
-    #mobile_nav_list .nav-item {
+        gap: 40px;
+        font-size: 40px;
         list-style: none;
-        text-align: center;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
     }
-}
+
+    }
+
+    #mobile-nav-list li a {
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+    }
+
 
 
 /* main */

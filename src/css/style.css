@@ -45,6 +45,17 @@ nav a {
     /* color: #000; */
 }
 
+#mobile-btn {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.open {
+    display: block;
+}
 
 .menu {
     display: flex;
