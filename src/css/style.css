@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary: #ffafcc;
+    --color-second:  #1d1d1d;
+    --color-hover: #a2d2ff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FFF9E9;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--color-primary);
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 105px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF9E9;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    /* color: #000; */
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #3ae1ff;
+    border-radius: 2px;
+    color: #3ae1ff;
+    
+}
+
+.btn {
+    background-color: #FEC7DD;
+    color: #000;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: var(--color-hover);
+    transition: .3s ease;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+.btns a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #000;
+    background-color: #FFF;
+    padding: 8px 14px;
+    border-radius: 12px;
+}
+
+.btns a i {
+    color:  #000;
+    background-color: var(--color-primary);
+    padding: 10px 14px;
+    border-radius: 12px;
+    text-align: center;   
+    font-size: 14px;
+    transition: background-color .3s ease;
+}
+
+.btns button {
+    color: #000;
+    font-weight: 700;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: var(--color-primary);
+}
+
+.btns button:hover {
+    background-color: var(--color-hover);
+}
+
+.btns a i:hover {
+    background-color: #a2d2ff;
+    
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 28px; ;
+    padding: 0 105px;
+
+}
+
+.main-sr, .nav-sr {
+    visibility: hidden;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    color: var(--color-second);
+    width: 45px;
+    height: 40px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    border-radius: 8px;
+
+    transition: 0.2s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
+
+
+.social-media a i {
+    font-size: 20px;
+}
+
+
+
+h1 {
+    font-size: 64px;
+    max-width: 612px;
+}
+
+p {
+    max-width: 418px;
+    font-size: 19px;
+}
+
+span {
+    color: #FEC7DD;
+}
+
+.img {
+    background-color: #d7ecff;
+    border-radius: 40%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------------- section cardapio */
+
+#cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.section-title {
+    color: var(--color-primary);
+    font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875;
+}
+
+.ice-creams {
+    /* display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto; */
+    display: flex;
+    
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ice-cream {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    gap: 18px;
+    background-color: #FAEBD7;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+
+    border-radius: 20px;
+    padding: 20px;
+    width: 295px;
+    height: 479px;
+    /* height: 100vh; */
+}
+
+
+.ice-cream p {
+    font-weight: lighter;
+    font-size: 16px;
+    max-width: 300px;
+}
+
+.ice-crem-price {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ice-crem-price button {
+    color:  #000;
+    background-color: var(--color-primary);
+    padding: 10px 14px;
+    border-radius: 12px;
+    text-align: center;   
+    font-size: 14px;
+    transition:  .3s ease;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.ice-crem-price button:hover {
+    background-color: #a2d2ff;
+    
+}
+
+/* -----------------testimony section ------------------------ */
+#testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#testimonials .section-subtitle {
+    font-size: 3rem;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+   
+.testimonials-sr img {
+    width: 514px;
+    height: 702px;
+}
+
+.feedback {
+    display: flex;
+    gap: 10px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    width: 627px;
+    height: 124px;
+    border-radius: 10px;
+}
+.feedback-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.feedback-content p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.feedback img {
+    width:100px;
+    height:100px;
+}
+
+/* ----------FOOTER---------- */
+
+footer {
+    background-color: #d7ecff;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #a8d0f6;
+    border-radius: 20px;
+}

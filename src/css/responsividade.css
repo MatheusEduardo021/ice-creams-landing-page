@@ -1,0 +1,139 @@
+/* footer */
+@media screen and (max-width: 600px) {
+    .footer-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* header */
+@media screen and ( max-width: 1170px) {
+    .menu,
+    nav .btn {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+
+/* main */
+@media screen and ( max-width: 1170px) {
+    .principal {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and ( max-width: 450px) {
+    .btns a i {
+        display: none;
+    }
+}
+/* </main> */
+
+/* cardapio section */
+
+@media screen and ( max-width: 1170px) {
+    .ice-creams {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ice-cream {
+        width: calc(50% - 12px);
+    }
+
+}
+
+
+@media screen and ( max-width: 600px) {
+    .ice-cream {
+        width: 100%;
+    }
+
+    #cardapio .section-subtitle {
+        text-align: center;
+    }
+
+}
+
+@media screen and ( max-width: 1170px) {
+    #testimonials {
+        flex-direction: column;
+    }
+
+    #testimonials .section-subtitle {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .little-girl {
+        display: none;
+    }
+
+    .testimonial-content{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* testimonials section */
+@media screen and ( max-width: 600px) {
+    
+    #testimonials .section-subtitle {
+        font-size: 2rem;
+    }
+
+    .testimonial-content {
+        width: 100%;
+       
+    }
+
+    .feedback {
+        flex-direction: column;
+        width: 439px; 
+        height: 244px;  
+        padding: 22px;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+
+}
