@@ -35,7 +35,7 @@
     #mobile-nav-list {
         background-color: #FFF9E9;
         height: calc(103vh - 90px);
-        margin-top: 70px;
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -65,6 +65,8 @@
         padding-top: 0px;
         margin-top: 70px;
     }
+
+
 
     .img {
         display: none;
