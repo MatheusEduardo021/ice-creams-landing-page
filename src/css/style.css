@@ -42,7 +42,6 @@ nav {
 
 nav a {
     text-decoration: none;
-    /* color: #000; */
 }
 
 #mobile-btn {
@@ -53,9 +52,6 @@ nav a {
     display: none;
 }
 
-.open {
-    display: block;
-}
 
 .menu {
     display: flex;

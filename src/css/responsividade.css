@@ -24,12 +24,6 @@
     .actived {
         display: block;
     }
-
-    .menu-mobile {
-        position: fixed;
-        left: 0;
-        top: 0;
-    }
  
 
     #mobile-nav-list {
