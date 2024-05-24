@@ -16,12 +16,6 @@ ScrollReveal().reveal(".cardapio-sr", {
   origin: "left",
 });
 
-ScrollReveal().reveal(".img-sr", {
-  duration: 1500,
-  distance: "150px",
-  origin: "left",
-});
-
 ScrollReveal().reveal(".testimonials-sr", {
   duration: 1500,
   distance: "150px",
